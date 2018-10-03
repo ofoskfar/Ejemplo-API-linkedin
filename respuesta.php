@@ -6,9 +6,9 @@ $code = $_REQUEST['code'];
 
 $url = "https://www.linkedin.com/uas/oauth2/accessToken";
 $vars = [
-	'client_id' => '77r4yi7dvtvrpe',
-	'client_secret' => 'wLTDwIsjrATh7TNu',
-	'redirect_uri' => 'http://cursosim.com/respuesta.php',
+	'client_id' => '',
+	'client_secret' => '',
+	'redirect_uri' => '',
 	'code' => $code, 
 	'grant_type' => 'authorization_code',
 ];
